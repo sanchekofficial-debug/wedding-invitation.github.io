@@ -88,7 +88,7 @@ body {
 /* Telegram бот */
 .telegram-container {
     position: absolute;
-    top: 25%;
+    top: 22%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -142,7 +142,7 @@ body {
 /* Таймер */
 .timer-container {
     position: absolute;
-    top: 35%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -355,6 +355,7 @@ body {
         height: 300px;
     }
 }
+
 
 
 
