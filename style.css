@@ -16,7 +16,7 @@ body {
 
 /* Стили для уменьшенных фотографий */
 .fullscreen-image {
-    width: 80%;
+    width: 60%;
     height: auto;
     max-height: 80vh;
     object-fit: contain;
@@ -216,3 +216,4 @@ body {
         font-size: 1.8rem;
     }
 }
+
