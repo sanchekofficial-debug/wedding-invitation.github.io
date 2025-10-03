@@ -412,7 +412,24 @@ body {
     #map {
         height: 300px;
     }
+    /* iOS FIX - убрать увеличение фона */
+@supports (-webkit-touch-callout: none) {
+    body, [class*="bg"], [class*="background"], section, div {
+        -webkit-background-size: cover !important;
+        background-size: cover !important;
+        background-attachment: scroll !important;
+    }
 }
+
+/* Уменьшение фото */
+.background-image, .parallax-bg, section, .bg-image {
+    background-size: cover !important;
+    background-position: center !important;
+    max-width: 100vw !important;
+    height: 100vh !important;
+}
+}
+
 
 
 
