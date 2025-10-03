@@ -174,7 +174,7 @@ body {
 /* Адаптивность для мобильных */
 @media (max-width: 768px) {
     .fullscreen-image {
-        width: 70%;
+        width: 40%;
         max-height: 85vh;
     }
     
@@ -216,6 +216,7 @@ body {
         font-size: 1.8rem;
     }
 }
+
 
 
 
