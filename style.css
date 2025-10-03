@@ -19,32 +19,31 @@ body {
     height: 100vh;
     width: 100vw;
     position: relative;
-    background-size: cover; /* ← ГЛАВНОЕ ИСПРАВЛЕНИЕ */
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-/* Ваши фоны */
+/* 🎯 ВАШИ ФОТО */
 #section1 {
-    background-image: url('фото1.png');
+    background-image: url('фото1.PNG');
 }
 
 #section2 {
-    background-image: url('фото2.png');
+    background-image: url('фото2.PNG');
 }
 
 #section3 {
-    background-image: url('фото3.png');
+    background-image: url('фото3.PNG');
 }
 
 #section4 {
-    background-image: url('фото4.png');
+    background-image: url('фото4.PNG');
 }
 
 #section5 {
-    background-image: url('фото5.png');
+    background-image: url('фото5.PNG');
 }
-
 /* ==================== */
 /* СЕКЦИЯ 3: КАРТА */
 /* ==================== */
@@ -427,6 +426,7 @@ body {
         height: 300px;
     }
 }
+
 
 
 
