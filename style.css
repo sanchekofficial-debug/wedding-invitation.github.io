@@ -47,7 +47,7 @@ body {
 /* ==================== */
 .map-container {
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -88,7 +88,7 @@ body {
 /* Telegram бот */
 .telegram-container {
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -142,7 +142,7 @@ body {
 /* Таймер */
 .timer-container {
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -355,6 +355,7 @@ body {
         height: 300px;
     }
 }
+
 
 
 
