@@ -237,7 +237,7 @@ body {
 /* Большие телефоны */
 @media (max-width: 768px) {
     .map-container {
-        width: 95%;
+        width: 80%;
     }
     
     .map-container h2 {
@@ -255,7 +255,7 @@ body {
     
     .telegram-container {
         top: 25%;
-        width: 95%;
+        width: 80%;
     }
     
     .telegram-content {
@@ -277,7 +277,7 @@ body {
     
     .timer-container {
         top: 70%;
-        width: 90%;
+        width: 80%;
         padding: 25px;
     }
     
@@ -303,7 +303,7 @@ body {
 /* Телефоны */
 @media (max-width: 480px) {
     .map-container {
-        width: 98%;
+        width: 80%;
     }
     
     .map-container h2 {
@@ -321,7 +321,7 @@ body {
     
     .telegram-container {
         top: 22%;
-        width: 98%;
+        width: 80%;
     }
     
     .telegram-content {
@@ -348,7 +348,7 @@ body {
     
     .timer-container {
         top: 68%;
-        width: 95%;
+        width: 80%;
         padding: 20px;
         border-radius: 15px;
     }
@@ -429,6 +429,7 @@ body {
     height: 100vh !important;
 }
 }
+
 
 
 
