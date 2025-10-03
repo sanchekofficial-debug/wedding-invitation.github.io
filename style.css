@@ -25,15 +25,11 @@ body {
 }
 
 /* Секции с фоном - РАСКОММЕНТИРУЙТЕ И УКАЖИТЕ ВАШИ ФОТО */
-#section1 { background-image: url('фото1.PNG'); }
-
-#section1 { background-image: url('фото2.PNG'); }
-
-#section1 { background-image: url('фото3.PNG'); }
-
-#section1 { background-image: url('фото4.PNG'); }
-
-#section1 { background-image: url('фото5.PNG'); }
+#section1 { background-image: url('фото1.png'); }
+#section2 { background-image: url('фото2.png'); }
+#section3 { background-image: url('фото3.png'); }
+#section4 { background-image: url('фото4.png'); }
+#section5 { background-image: url('фото5.png'); }
 
 /* ==================== */
 /* СЕКЦИЯ 3: КАРТА */
@@ -417,4 +413,5 @@ body {
         height: 300px;
     }
 }
+
 
