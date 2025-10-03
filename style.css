@@ -25,11 +25,24 @@ body {
 }
 
 /* Секции с фоном - РАСКОММЕНТИРУЙТЕ И УКАЖИТЕ ВАШИ ФОТО */
-#section1 { background-image: url('фото1.png'); }
-#section2 { background-image: url('фото2.png'); }
-#section3 { background-image: url('фото3.png'); }
-#section4 { background-image: url('фото4.png'); }
-#section5 { background-image: url('фото5.png'); }
+#section1 {
+    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/section1-background.jpg');
+}
+
+#section2 {
+    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/section2-background.jpg');
+}
+
+#section3 {
+    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/section3-background.jpg');
+}
+
+#section4 {
+    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/section4-background.jpg');
+}
+#section5 {
+    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/section5-background.jpg');
+}
 
 /* ==================== */
 /* СЕКЦИЯ 3: КАРТА */
@@ -413,5 +426,6 @@ body {
         height: 300px;
     }
 }
+
 
 
