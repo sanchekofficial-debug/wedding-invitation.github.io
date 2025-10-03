@@ -96,7 +96,7 @@ body {
         font-size: 1.8rem;
     }
     .fullscreen-image {
-    width: 70%;
+    width: 50%;
     height: auto;
     max-height: 90vh;
     object-fit: contain;
@@ -104,6 +104,7 @@ body {
     margin: 0 auto;
 }
 }
+
 
 
 
