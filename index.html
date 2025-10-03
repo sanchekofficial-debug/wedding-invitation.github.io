@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашение на свадьбу</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Секция 1: Просто вставьте свою PNG картинку -->
+    <section id="home" class="screen">
+        <img src="Images/photo_2025-10-03_18-02-44.jpg" alt="We are getting married" class="fullscreen-image">
+    </section>
+
+    <!-- Секция 2: Просто вставьте свою PNG картинку -->
+    <section id="invitation" class="screen">
+        <img src="Images/photo_2025-10-03_18-02-42.jpg" alt="Приглашение" class="fullscreen-image">
+    </section>
+
+    <!-- Остальные секции остаются как были -->
+    <section id="timer" class="screen">
+        <div class="container">
+            <h2>До нашего торжества осталось:</h2>
+            <div id="countdown">
+                <div class="time-box">
+                    <span id="days">0</span>
+                    <div class="label">дней</div>
+                </div>
+                <div class="time-box">
+                    <span id="hours">0</span>
+                    <div class="label">часов</div>
+                </div>
+                <div class="time-box">
+                    <span id="minutes">0</span>
+                    <div class="label">минут</div>
+                </div>
+                <div class="time-box">
+                    <span id="seconds">0</span>
+                    <div class="label">секунд</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 4: Пожелания о подарках -->
+    <section id="gifts" class="screen">
+        <div class="container">
+            <h2>Пожелания о подарках</h2>
+            <div class="gifts-content">
+                <p>Ваше присутствие на нашем празднике - уже самый ценный подарок!</p>
+                <p>Если Вы хотите нас порадовать, мы будем благодарны за вклад в наше совместное будущее.</p>
+                <div class="gift-options">
+                    <div class="gift-option">
+                        <i class="fas fa-heart"></i>
+                        <p>Ваши тёплые пожелания</p>
+                    </div>
+                    <div class="gift-option">
+                        <i class="fas fa-glass-cheers"></i>
+                        <p>Бутылочка хорошего вина для нашего праздника</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 5: Место проведения -->
+    <section id="location" class="screen">
+        <div class="container">
+            <h2>Место проведения банкета</h2>
+            <div class="location-info">
+                <p><strong>Ресторан "Название ресторана"</strong></p>
+                <p>Адрес: г. Москва, ул. Примерная, д. 10</p>
+                <p>Начало: 18:00</p>
+            </div>
+            <div id="map">
+                <div class="map-placeholder">
+                    <p>🚗 Карта загружается...</p>
+                    <a href="https://yandex.ru/maps/" target="_blank" class="map-link">
+                        Открыть в Яндекс.Картах
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
