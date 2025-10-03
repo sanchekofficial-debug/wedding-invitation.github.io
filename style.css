@@ -323,6 +323,41 @@ body {
         font-size: 0.8rem;
     }
 }
+/* Исправление разрывов на мобильных */
+@media (max-width: 480px) {
+    .map-container,
+    .telegram-container,
+    .timer-container {
+        width: 95% !important;
+        padding: 15px !important;
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        transform: none !important;
+        margin: 15px auto !important;
+    }
+    
+    #map {
+        height: 250px !important;
+    }
+    
+    .telegram-content {
+        padding: 20px 15px !important;
+    }
+    
+    #countdown {
+        gap: 8px !important;
+    }
+    
+    .time-box {
+        min-width: 65px !important;
+        padding: 12px 8px !important;
+    }
+    
+    .time-box span {
+        font-size: 1.6rem !important;
+    }
+}
 /* Ландшафтная ориентация */
 @media (max-height: 500px) and (orientation: landscape) {
     .screen {
@@ -355,6 +390,14 @@ body {
         height: 300px;
     }
 }
+/* iOS фикс */
+@supports (-webkit-touch-callout: none) {
+    .screen {
+        -webkit-background-size: contain !important;
+        background-size: contain !important;
+    }
+}
+
 
 
 
