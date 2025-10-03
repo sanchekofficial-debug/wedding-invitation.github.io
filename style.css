@@ -95,4 +95,13 @@ body {
     #timer h2 {
         font-size: 1.8rem;
     }
+    .fullscreen-image {
+    width: 90%;
+    height: auto;
+    max-height: 90vh;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
+}
+
