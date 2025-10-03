@@ -96,16 +96,15 @@ body {
         font-size: 1.8rem;
     }
    .fullscreen-image {
-    width: 80%;
+    width: 100vw;
     height: auto;
-    max-height: 80vh;
+    max-height: 100vh;
     object-fit: contain;
     display: block;
     margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
 }
 }
+
 
 
 
