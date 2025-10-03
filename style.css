@@ -26,22 +26,22 @@ body {
 
 /* Секции с фоном - РАСКОММЕНТИРУЙТЕ И УКАЖИТЕ ВАШИ ФОТО */
 #section1 {
-    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/section1-background.jpg');
+    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/фото1.PNG');
 }
 
 #section2 {
-    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/section2-background.jpg');
+    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/фото2.PNG');
 }
 
 #section3 {
-    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/section3-background.jpg');
+    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/фото3.PNG');
 }
 
 #section4 {
-    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/section4-background.jpg');
+    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/фото4.PNG');
 }
 #section5 {
-    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/section5-background.jpg');
+    background-image: url('https://sanchekofficial-debug.github.io/wedding-invitation.github.io/фото5.PNG');
 }
 
 /* ==================== */
@@ -426,6 +426,7 @@ body {
         height: 300px;
     }
 }
+
 
 
 
