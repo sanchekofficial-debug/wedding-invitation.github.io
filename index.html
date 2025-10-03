@@ -18,9 +18,42 @@
         <!-- Фон добавляется через CSS -->
     </section>
 
-    <!-- Секция 3: Таймер -->
+    <!-- Секция 3: Карта -->
     <section id="section3" class="screen">
         <!-- Фон добавляется через CSS -->
+        <div class="map-container adjustable-element">
+            <h2>Место проведения торжества</h2>
+            <div id="map"></div>
+            <div class="location-info">
+                <p><strong id="cafe-name">Наше кафе</strong></p>
+                <p id="cafe-address">г. Москва, ул. Примерная, д. 10</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 4: Фон -->
+    <section id="section4" class="screen">
+        <!-- Фон добавляется через CSS -->
+    </section>
+
+    <!-- Секция 5: Телеграм бот и таймер -->
+    <section id="section5" class="screen">
+        <!-- Фон добавляется через CSS -->
+        
+        <!-- Telegram бот -->
+        <div class="telegram-container adjustable-element">
+            <div class="telegram-content">
+                <i class="fab fa-telegram telegram-icon"></i>
+                <h2>Подтвердите ваше присутствие</h2>
+                <p>Нажмите на кнопку ниже чтобы перейти в Telegram-бота и подтвердить ваше участие в нашем торжестве</p>
+                <a href="https://t.me/your_bot" target="_blank" class="telegram-btn">
+                    <i class="fab fa-telegram"></i>
+                    Подтвердить в Telegram
+                </a>
+            </div>
+        </div>
+
+        <!-- Таймер -->
         <div class="timer-container adjustable-element">
             <h2>До нашего торжества осталось:</h2>
             <div id="countdown">
@@ -44,41 +77,9 @@
         </div>
     </section>
 
-    <!-- Секция 4: Фон -->
-    <section id="section4" class="screen">
-        <!-- Фон добавляется через CSS -->
-    </section>
-
-    <!-- Секция 5: Телеграм бот и карта -->
-    <section id="section5" class="screen">
-        <!-- Фон добавляется через CSS -->
-        
-        <!-- Telegram бот -->
-        <div class="telegram-container adjustable-element">
-            <div class="telegram-content">
-                <i class="fab fa-telegram telegram-icon"></i>
-                <h2>Подтвердите ваше присутствие</h2>
-                <p>Нажмите на кнопку ниже чтобы перейти в Telegram-бота и подтвердить ваше участие в нашем торжестве</p>
-                <a href="https://t.me/your_bot" target="_blank" class="telegram-btn">
-                    <i class="fab fa-telegram"></i>
-                    Подтвердить в Telegram
-                </a>
-            </div>
-        </div>
-
-        <!-- Карта -->
-        <div class="map-container adjustable-element">
-            <h2>Место проведения торжества</h2>
-            <div id="map"></div>
-            <div class="location-info">
-                <p><strong id="cafe-name">Наше кафе</strong></p>
-                <p id="cafe-address">г. Москва, ул. Примерная, д. 10</p>
-            </div>
-        </div>
-    </section>
-
     <!-- Подключаем Яндекс.Карты -->
     <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш_api_ключ&lang=ru_RU" type="text/javascript"></script>
     <script src="script.js"></script>
 </body>
 </html>
+
