@@ -195,24 +195,24 @@ body {
 /* Планшеты */
 @media (max-width: 1024px) {
     .map-container {
-        width: 80%;
+        width: 40%;
     }
     #map {
         height: 450px;
     }
     .telegram-container {
         top: 28%;
-        width: 90%;
+        width: 40%;
     }
     .timer-container {
         top: 72%;
-        width: 85%;
+        width: 40%;
     }
 }
 /* Большие телефоны */
 @media (max-width: 768px) {
     .map-container {
-        width: 80%;
+        width: 40%;
     }
     .map-container h2 {
         font-size: 1.8rem;
@@ -226,7 +226,7 @@ body {
     }
     .telegram-container {
         top: 25%;
-        width: 95%;
+        width: 40%;
     }
     .telegram-content {
         padding: 30px 25px;
@@ -243,7 +243,7 @@ body {
     }
     .timer-container {
         top: 70%;
-        width: 90%;
+        width: 40%;
         padding: 25px;
     }
     
@@ -265,7 +265,7 @@ body {
 /* Телефоны */
 @media (max-width: 480px) {
     .map-container {
-        width: 80%;
+        width: 50%;
     }
     .map-container h2 {
         font-size: 1.5rem;
@@ -279,7 +279,7 @@ body {
     }
     .telegram-container {
         top: 22%;
-        width: 98%;
+        width: 50%;
     }
     .telegram-content {
         padding: 25px 20px;
@@ -300,7 +300,7 @@ body {
     } 
     .timer-container {
         top: 68%;
-        width: 95%;
+        width: 50%;
         padding: 20px;
         border-radius: 15px;
     }
@@ -355,6 +355,7 @@ body {
         height: 300px;
     }
 }
+
 
 
 
