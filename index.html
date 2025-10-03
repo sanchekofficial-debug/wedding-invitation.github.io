@@ -5,29 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Приглашение на свадьбу</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <!-- Секция 1 -->
-<section id="home" class="screen">
-    <div class="photo-frame">
-        <div class="frame-border">
-            <img src="https://sanchekofficial-debug.github.io/wedding-invitation.github.io/фото1.PNG" alt="We are getting married" class="framed-photo">
-        </div>
-    </div>
-</section>
+    <!-- Секция 1: Фон -->
+    <section id="section1" class="screen">
+        <!-- Фон добавляется через CSS -->
+    </section>
 
-<!-- Секция 2 -->
-<section id="invitation" class="screen">
-    <div class="photo-frame">
-        <div class="frame-border">
-            <img src="https://sanchekofficial-debug.github.io/wedding-invitation.github.io/фото2.PNG" alt="Приглашение" class="framed-photo">
-        </div>
-    </div>
-</section>
+    <!-- Секция 2: Фон -->
+    <section id="section2" class="screen">
+        <!-- Фон добавляется через CSS -->
+    </section>
 
-    <!-- Остальные секции остаются как были -->
-    <section id="timer" class="screen">
-        <div class="container">
+    <!-- Секция 3: Таймер -->
+    <section id="section3" class="screen">
+        <!-- Фон добавляется через CSS -->
+        <div class="timer-container adjustable-element">
             <h2>До нашего торжества осталось:</h2>
             <div id="countdown">
                 <div class="time-box">
@@ -50,52 +44,41 @@
         </div>
     </section>
 
-    <!-- Секция 4: Пожелания о подарках -->
-    <section id="gifts" class="screen">
-        <div class="container">
-            <h2>Пожелания о подарках</h2>
-            <div class="gifts-content">
-                <p>Ваше присутствие на нашем празднике - уже самый ценный подарок!</p>
-                <p>Если Вы хотите нас порадовать, мы будем благодарны за вклад в наше совместное будущее.</p>
-                <div class="gift-options">
-                    <div class="gift-option">
-                        <i class="fas fa-heart"></i>
-                        <p>Ваши тёплые пожелания</p>
-                    </div>
-                    <div class="gift-option">
-                        <i class="fas fa-glass-cheers"></i>
-                        <p>Бутылочка хорошего вина для нашего праздника</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Секция 4: Фон -->
+    <section id="section4" class="screen">
+        <!-- Фон добавляется через CSS -->
     </section>
 
-    <!-- Секция 5: Место проведения -->
-    <section id="location" class="screen">
-        <div class="container">
-            <h2>Место проведения банкета</h2>
+    <!-- Секция 5: Телеграм бот и карта -->
+    <section id="section5" class="screen">
+        <!-- Фон добавляется через CSS -->
+        
+        <!-- Telegram бот -->
+        <div class="telegram-container adjustable-element">
+            <div class="telegram-content">
+                <i class="fab fa-telegram telegram-icon"></i>
+                <h2>Подтвердите ваше присутствие</h2>
+                <p>Нажмите на кнопку ниже чтобы перейти в Telegram-бота и подтвердить ваше участие в нашем торжестве</p>
+                <a href="https://t.me/your_bot" target="_blank" class="telegram-btn">
+                    <i class="fab fa-telegram"></i>
+                    Подтвердить в Telegram
+                </a>
+            </div>
+        </div>
+
+        <!-- Карта -->
+        <div class="map-container adjustable-element">
+            <h2>Место проведения торжества</h2>
+            <div id="map"></div>
             <div class="location-info">
-                <p><strong>Ресторан "Название ресторана"</strong></p>
-                <p>Адрес: г. Москва, ул. Примерная, д. 10</p>
-                <p>Начало: 18:00</p>
-            </div>
-            <div id="map">
-                <div class="map-placeholder">
-                    <p>🚗 Карта загружается...</p>
-                    <a href="https://yandex.ru/maps/" target="_blank" class="map-link">
-                        Открыть в Яндекс.Картах
-                    </a>
-                </div>
+                <p><strong id="cafe-name">Наше кафе</strong></p>
+                <p id="cafe-address">г. Москва, ул. Примерная, д. 10</p>
             </div>
         </div>
     </section>
 
+    <!-- Подключаем Яндекс.Карты -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш_api_ключ&lang=ru_RU" type="text/javascript"></script>
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
