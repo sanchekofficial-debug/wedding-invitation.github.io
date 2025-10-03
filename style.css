@@ -19,9 +19,10 @@ body {
     height: 100vh;
     width: 100vw;
     position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;     /* Растягивает фото на весь экран */
+    background-position: center; /* Центрирует фото */
+    background-repeat: no-repeat; /* Запрещает повторение */
+    background-attachment: fixed; /* Фиксирует фон при прокрутке */
 }
 
 /* Секции с фоном - РАСКОММЕНТИРУЙТЕ И УКАЖИТЕ ВАШИ ФОТО */
@@ -432,6 +433,7 @@ body {
         height: 300px;
     }
 }
+
 
 
 
