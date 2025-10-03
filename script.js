@@ -16,9 +16,58 @@ function updateCountdown() {
 
     if (distance < 0) {
         clearInterval(countdownTimer);
-        document.getElementById('countdown').innerHTML = "<div style='font-size: 2rem;'>Свадьба состоялась!</div>";
+        document.getElementById('countdown').innerHTML = "<div style='font-size: 1.5rem; padding: 20px;'>Свадьба состоялась!</div>";
     }
 }
 
 const countdownTimer = setInterval(updateCountdown, 1000);
 updateCountdown();
+
+// КООРДИНАТЫ КАФЕ - ИЗМЕНИТЕ НА ВАШИ!
+const cafeCoordinates = {
+    lat: 55.7558,   // ШИРОТА - замените на координаты вашего кафе
+    lng: 37.6173,   // ДОЛГОТА - замените на координаты вашего кафе
+    name: "Наше прекрасное кафе",  // Название вашего кафе
+    address: "г. Москва, ул. Примерная, д. 10"  // Адрес вашего кафе
+};
+
+// Инициализация карты
+function initMap() {
+    const map = new ymaps.Map('map', {
+        center: [cafeCoordinates.lat, cafeCoordinates.lng],
+        zoom: 16
+    });
+
+    // Добавляем метку
+    const placemark = new ymaps.Placemark([cafeCoordinates.lat, cafeCoordinates.lng], {
+        balloonContent: `
+            <strong>${cafeCoordinates.name}</strong><br>
+            ${cafeCoordinates.address}<br>
+            <em>Ждём вас на нашей свадьбе!</em>
+        `
+    }, {
+        preset: 'islands#redDotIcon',
+        iconColor: '#8b4513'
+    });
+
+    map.geoObjects.add(placemark);
+    
+    // Убираем лишние элементы управления
+    map.controls.remove('geolocationControl');
+    map.controls.remove('searchControl');
+    map.controls.remove('trafficControl');
+    map.controls.remove('typeSelector');
+    map.controls.remove('fullscreenControl');
+    map.controls.remove('rulerControl');
+    
+    // Обновляем информацию о кафе
+    document.getElementById('cafe-name').textContent = cafeCoordinates.name;
+    document.getElementById('cafe-address').textContent = cafeCoordinates.address;
+}
+
+// Загружаем карты
+document.addEventListener('DOMContentLoaded', function() {
+    if (typeof ymaps !== 'undefined') {
+        ymaps.ready(initMap);
+    }
+});
